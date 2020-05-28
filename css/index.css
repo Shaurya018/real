@@ -24,7 +24,7 @@ a {
   min-height: 600px;
   position: relative;
   background-size: cover;
-  background-position: top right;
+  background-position: top;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -219,15 +219,3 @@ a {
 .navigation li a.active {
   background-color: #b10000;
 }
-@media only screen and (max-width: 600px) {
-  #section1 {
-   background-image: url("images/real6.jpg"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; 
-  }
-}
-
- 
