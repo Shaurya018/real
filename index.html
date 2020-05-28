@@ -39,7 +39,7 @@ content=" HALA MADRID!! Real Madrid is the most successful club in the history.K
     <div class="Expand Three"></div>
   </div>
 </div>
-  <div class="loader-wrappper">  
+  <div class="loader-wrapper">  
 <div class="promotion-carousel">
   <div class="promotions">
     <div>
@@ -188,9 +188,9 @@ content=" HALA MADRID!! Real Madrid is the most successful club in the history.K
 </div>
 </div>
 <script>
-  $(window).on("load",function(){
-    $(".loader-wrapper").fadeOut(slow);
-  });
+  $(window).load(function() {
+   setTimeout(function(){ $('.loader-wrapper').fadeOut('slow'); }, 3000);
+})
 </script>
 <script src="js/script.js">
 </script>
