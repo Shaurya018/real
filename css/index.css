@@ -219,3 +219,13 @@ a {
 .navigation li a.active {
   background-color: #b10000;
 }
+@media only screen and (max-width: 600px) {
+  #section1 {
+   height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  }
+}
+
+ 
